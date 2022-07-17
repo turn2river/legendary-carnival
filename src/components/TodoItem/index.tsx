@@ -6,6 +6,9 @@ import { store } from '../../store';
 import { Wrapper } from './styled';
 
 export const TodoItem = () => {
+
+// const { deleteTodo } = store;
+
   return (
     <>
       {store.todos.map((todo) => (

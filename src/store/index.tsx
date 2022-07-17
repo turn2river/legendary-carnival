@@ -17,6 +17,8 @@ const addTodo = (todos: ITodo[], title: string): ITodo[] => [
   },
 ];
 
+
+
 class Todos {
   todos: ITodo[] = [];
   newTodoItem: string = '';
@@ -35,6 +37,10 @@ class Todos {
     }
     this.newTodoItem = '';
   }
+
+
+
 }
+
 
 export const store = new Todos();
