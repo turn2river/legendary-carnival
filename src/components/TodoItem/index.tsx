@@ -1,13 +1,11 @@
-import { observe } from 'mobx';
 import { observer } from 'mobx-react-lite';
-import styled from 'styled-components';
+
 import { store } from '../../store';
 
 import { Wrapper } from './styled';
 
 export const TodoItem = () => {
 
-// const { deleteTodo } = store;
 
   return (
     <>
@@ -15,9 +13,9 @@ export const TodoItem = () => {
         <Wrapper key={todo.id}>
           <label>
             <p>{todo.title}</p>
-            <input 
-            type='checkbox' 
-            onClick={() => (todo.completed = !todo.completed)} 
+            <input
+            type='checkbox'
+            onClick={() => (todo.completed = !todo.completed)}
             checked={todo.completed}
             />
             <span></span>

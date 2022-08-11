@@ -1,17 +1,13 @@
 import { ObservedTodoInput } from '../TodoInput';
 
+import { Inner } from './styled';
 
-import { Wrapper } from './styled';
-
-//render
 export const Header = () => {
   return (
-    <Wrapper>
+    <Inner>
       <h1>ToDoApp</h1>
       <ObservedTodoInput />
       <span></span>
-    </Wrapper>
+    </Inner>
   );
 };
-
-

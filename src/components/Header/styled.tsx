@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Inner = styled.div`
   span {
     display: block;
     max-width: 490px;
@@ -13,6 +13,6 @@ export const Wrapper = styled.div`
     color: #008445;
     margin-top: 0;
     margin-bottom: 45px;
-   
+
   }
 `;
