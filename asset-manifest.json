@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/legendary-carnival/static/js/main.7e2936c4.js",
+    "main.js": "/legendary-carnival/static/js/main.aaf9d3bb.js",
     "index.html": "/legendary-carnival/index.html",
-    "main.7e2936c4.js.map": "/legendary-carnival/static/js/main.7e2936c4.js.map"
+    "main.aaf9d3bb.js.map": "/legendary-carnival/static/js/main.aaf9d3bb.js.map"
   },
   "entrypoints": [
-    "static/js/main.7e2936c4.js"
+    "static/js/main.aaf9d3bb.js"
   ]
 }
